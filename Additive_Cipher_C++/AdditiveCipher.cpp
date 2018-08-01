@@ -1,9 +1,5 @@
 //============================================================================
 // Name        : AdditiveCipher.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
@@ -13,7 +9,7 @@ int main() {
 
 	int key, x, i = 0;
 	string guess = "";
-	string cipherText = "UOISCXEWLOBDOX";
+	string cipherText = "UOISCXEWLOBDOX"; //string to decrypt
 
 	//array of characters we can use
 	char alphabet[] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
